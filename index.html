@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen flex items-start justify-center p-6">
+    <div
+      class="flex flex-col lg:flex-row lg:items-center max-w-6xl w-full gap-10"
+    >
+ 
+      <div class="flex-1">
+        <h1 class="text-3xl font-bold mb-4">تیشرت مردانه ساده</h1>
+        <p class="text-gray-700 text-base leading-7 mb-4">
+          تیشرت مردانه ساده با کیفیت بالا، مناسب استفاده روزمره. پارچه ۱۰۰٪ پنبه
+          با دوخت استاندارد. قابلیت انتخاب رنگ و سایز دلخواه.
+        </p>
+        <p class="text-xl font-semibold mb-6">قیمت: ۲۵۰٬۰۰۰ تومان</p>
+        <button
+          class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
+        >
+          افزودن به سبد خرید
+        </button>
+      </div>
+
+      <div class="flex flex-col items-center gap-5">
+        <div
+          class="relative w-[500px] h-[500px] overflow-hidden border-2 border-black shadow-md"
+        >
+          <img
+            id="tshirt"
+            src="img/116691221.webp"
+            alt="T-shirt"
+            class="w-full h-full object-cover transition-transform duration-200"
+          />
+        </div>
+        <div class="flex gap-3">
+          <button
+            class="color-btn w-8 h-8 rounded-full border border-gray-300"
+            data-image="116691221.webp"
+            style="background: #fff"
+          ></button>
+          <button
+            class="color-btn w-8 h-8 rounded-full border border-gray-300"
+            data-image="1-2.jpg"
+            style="background: #26e46f"
+          ></button>
+          <button
+            class="color-btn w-8 h-8 rounded-full border border-gray-300"
+            data-image="t-shirt-red.jpg"
+            style="background: #e74c3c"
+          ></button>
+          <button
+            class="color-btn w-8 h-8 rounded-full border border-gray-300"
+            data-image="116798923.jpg"
+            style="background: #3498db"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
